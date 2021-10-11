@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c15a25e.chunk.css",
-    "main.js": "/static/js/main.6991d354.chunk.js",
-    "main.js.map": "/static/js/main.6991d354.chunk.js.map",
+    "main.css": "/static/css/main.7f1c5e39.chunk.css",
+    "main.js": "/static/js/main.3a4a1bb5.chunk.js",
+    "main.js.map": "/static/js/main.3a4a1bb5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.50b12691.js",
     "runtime-main.js.map": "/static/js/runtime-main.50b12691.js.map",
     "static/js/2.c9ca6030.chunk.js": "/static/js/2.c9ca6030.chunk.js",
     "static/js/2.c9ca6030.chunk.js.map": "/static/js/2.c9ca6030.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7c15a25e.chunk.css.map": "/static/css/main.7c15a25e.chunk.css.map",
-    "static/js/2.c9ca6030.chunk.js.LICENSE.txt": "/static/js/2.c9ca6030.chunk.js.LICENSE.txt",
-    "static/media/Ciudad.css": "/static/media/FOND.4894fb82.jpg",
-    "static/media/heart.cc3106f7.gif": "/static/media/heart.cc3106f7.gif",
-    "static/media/search.68d18bd0.gif": "/static/media/search.68d18bd0.gif"
+    "static/css/main.7f1c5e39.chunk.css.map": "/static/css/main.7f1c5e39.chunk.css.map",
+    "static/js/2.c9ca6030.chunk.js.LICENSE.txt": "/static/js/2.c9ca6030.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.50b12691.js",
     "static/js/2.c9ca6030.chunk.js",
-    "static/css/main.7c15a25e.chunk.css",
-    "static/js/main.6991d354.chunk.js"
+    "static/css/main.7f1c5e39.chunk.css",
+    "static/js/main.3a4a1bb5.chunk.js"
   ]
 }
