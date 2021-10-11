@@ -10,7 +10,7 @@ export default function Card ({min, max, name, img, onClose, id, temp}) {
     <div class="weather">
         <div class="row">
             <div class=" col-md-6">
-                <div class="card"> <span class="icon"><img class="img-fluid" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} /></span>
+                <div class="card"> <span class="icon"><img class="img-fluid" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"}/></span>
                     <div class="title">
                     <Link to={`/ciudad/${id}`} >
                        <p>{name}</p>
