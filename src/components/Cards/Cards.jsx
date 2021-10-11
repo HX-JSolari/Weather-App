@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import Card from '../Card/Card.jsx';
+import search from '../../img/search.gif';
 
 export default function Cards({cities, onClose}) {
 
@@ -9,10 +10,12 @@ export default function Cards({cities, onClose}) {
     { cities <= 0 ? 
     (
       <div className='h2'>
-        <strong><h2>BUSCA TU CIUDAD O PROVICIA FAVORITA</h2></strong>
+        <div><strong><h2>Search For Your Favourite City & Check the Weather</h2></strong></div>
+        <div><img src={search}  width="200" height="200" alt="No fig"></img></div>
       </div>
     
-    ):
+    )
+    :
     (
       <div className='cards'>
       {cities.map(c => <Card

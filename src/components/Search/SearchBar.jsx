@@ -17,7 +17,7 @@ export default function SearchBar({onSearch}) {
             <input 
             type="text" 
             value={city} 
-            placeholder="Search Products..."
+            placeholder="Search your city..."
             onChange={e => setCity(e.target.value)} 
             />
           <button class="main-search-button">Search</button>
