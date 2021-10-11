@@ -1,5 +1,5 @@
 WEB APP SPA.
 
-With React-redux && Boostrap.
+With React Boostrap & CSS Vanilla.
 
 Enjoy it :)
