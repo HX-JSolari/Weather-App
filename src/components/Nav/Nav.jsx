@@ -9,7 +9,7 @@ function Nav({onSearch}) {
 
   return (
     <nav className="navbar navbar-dark bg-dark">
-        <Link to='/'> 
+        <Link to='/Weather-App/'> 
           <span className="navbar-brand">
             <img id="heart" src={Logo} width="64" height="64" className="d-inline-block align-top" alt="" />
           </span>

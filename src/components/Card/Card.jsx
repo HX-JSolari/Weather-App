@@ -12,7 +12,7 @@ export default function Card ({min, max, name, img, onClose, id, temp}) {
             <div class=" col-md-6">
                 <div class="card"> <span class="icon"><img class="img-fluid" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"}/></span>
                     <div class="title">
-                    <Link to={`/ciudad/${id}`} >
+                    <Link to={`/Weather-App/ciudad/${id}`} >
                        <p>{name}</p>
                     </Link>
                     </div>
@@ -21,12 +21,12 @@ export default function Card ({min, max, name, img, onClose, id, temp}) {
 
                         <div class="col-4">
                             <div class="header">Min</div>
-                            <div class="value"><p>{`${parseInt(min)}°C`}</p></div>
+                            <div class="value"><p>{`${parseInt(min)}C`}</p></div>
                         </div>
 
                         <div class="col-4">
                             <div class="header">Max</div>
-                            <div class="value">{`${parseInt(max)}°C`}</div>
+                            <div class="value">{`${parseInt(max)}C`}</div>
                         </div>
 
                         <div class="col-4">
